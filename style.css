@@ -1,0 +1,504 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+.header{
+    background-color:#0B2447;
+    padding: 8px 16px;
+    margin-bottom: 75px;
+}
+.header img{
+    width: 120px;
+    height: 75px;
+    
+    margin-top: -75px;
+}
+
+
+
+.header li:hover{
+    background-color: #EA5455;
+    transition: 0.5s;
+    
+    
+}
+.anasayfa3lü1{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+   font-size: 17px;
+   color: #0B2447;
+}
+.anasayfa3lü2 {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    font-size: 17px;
+    color: #0B2447;
+   
+}
+
+
+.anasayfa3lü3{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 17px;
+    color: #0B2447;
+}
+
+
+.footer
+{
+background-color: #0B2447;
+text-align: right;
+padding-right: 15px;
+height: 75px;
+}
+.footer div i
+{
+padding-right: 5px;
+color: #98DFD6;
+padding-top: 30px;
+}
+.footer div li
+{
+display: inline-block;
+}
+.footer div a
+{
+text-decoration: none;
+color: #98DFD6;
+padding-top: 30px;
+
+}
+
+
+#nav{
+   width:calc(100% - 80px);
+    text-align: right;
+}
+.nav_li{
+display: inline-block;
+margin: 0,10px;
+margin-top: 25px;
+
+
+
+}
+.nav_li a { 
+    text-decoration: none;
+    color: #98DFD6;
+    margin-right: 10px;
+    font-size: 12px;
+}
+.logo{
+    display: flex;
+    
+}
+.logo img{ 
+    border-radius: 50%;
+    border: 2px black solid;
+    
+}
+.kolon{
+    display: inline-block;width: 47%;
+    padding: 16px;
+    margin: 8px ;
+    color: blueviolet;
+    background-color: aqua;
+    
+}
+.ilktanitim{
+
+
+    text-align: center;
+    
+}
+.ilktanitim img{
+    border-radius: 50%;
+}
+.ilktanitim p{
+
+
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+.mainpage{
+    
+    padding: 12px;
+    width: 100%;
+    padding: -20px;
+}
+.team_header  {
+    
+    display: flex;
+    padding-right: 0px;
+    margin-right: 0px 0px 0px 0px ;
+    
+}
+.teamselection  {
+    background-color: rgb(238, 255, 0);
+    text-align: center;
+}
+.tarihce_header{
+    text-align: center;
+    color: rgb(238, 11, 11);
+    font-size: 40px;
+    background-color: yellow;
+}
+.teamselection{
+    list-style-type: none;
+    background-color: yellow;
+    width: 100%;
+    margin-top: -5px;
+    margin-bottom: -15px;
+    
+   
+    
+    
+}
+.teamselection li{
+    padding: 20px;
+    width: 150px;
+   
+    margin-left: -48px;
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 50px;
+    
+    
+    
+}
+.teamselection li:hover{
+    background-color: rgb(220, 50, 50);
+    transition: 0.9s;
+    
+    
+}
+.teamselection li a {
+    text-decoration: none;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ .teamselection  i{
+    padding-right: 50px;
+ }
+ .tarihce{
+    background-color:#FFB266;
+    margin-top: -20px;
+    margin-bottom: -20px;
+ }
+ .futbolcusırala{
+    display: inline-block ;
+    border: 4px inset #228B22 ;
+     margin-top: 75px;
+    }
+.futbolcugenel{
+    background-color:#FFE4C4;
+    margin-top: -20px;
+}
+.cvyanyana{
+    display: inline-block;  width: 47% ;
+    
+}
+.sehrimbody{
+
+    background-color: #DAEAF1;;
+}
+.sehrimbody h3{
+
+   text-align: center;
+}
+.şehiranasayfalink a{
+color: #F38BA0;
+
+}
+
+.şehrimsection{
+    margin-top: -75px;
+    margin-bottom: -18px;
+}
+.şehrimsection p,h5{
+    padding-right: 10px;
+}
+.şehrimsection a:hover{
+    background-color: #FBFFB1;
+    transition: 0.7s;
+    
+    
+}
+.doğalgüzellikler{
+    background-color: #DAF5FF;
+    padding: 35px;
+    
+}
+.turistikyerler{
+    background-color: #DAF5FF;
+    padding: 35px;
+    
+}
+.mersinyemekler{
+    background-color: lightgreen;
+    padding: 35px;
+}
+
+
+
+.mirasimiztanitim p{
+text-align: center;
+font-size: large;
+    
+}
+.mirasimiztanitim img{
+    width: 750px;
+    margin-left: 400px;
+}
+
+.ilgialanlaribody{
+    background-color:#FFEAD2 ;
+}
+.ilgialanlariheader{
+
+    background-color: #FFEAD2;
+    margin-top: -70px;
+    height: 100px;
+}
+.ilgialanlariheader h4{
+
+    color: #8294C4;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+}
+.ilgialanlarisection{
+    margin-top: -17px;
+    background-color:#FFEAD2 ;
+}
+.ilgialanlarisection li{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:20px;
+}
+.ilgialanlarisection i{
+    padding-right: 10px;
+}
+.ilgialanlarisection2 img{
+    width: 32%;
+    display: inline-block;
+    padding-left: 25px;
+    padding-top: 35px;
+   
+
+}
+.ilgialanlarisection a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+
+
+
+.kayanresim img{
+    
+   padding-right: 25px;
+   width: 300px;
+   height: 400px;
+    
+}
+.mirasımızbody{
+    background-color: #FFEEB3;
+}
+
+.takimyanyana1{
+    display: inline-block;
+    width: 70%;
+    margin-top: -40px;
+    text-align: center;
+}
+
+.takimyanyana2{
+    display: inline-block;
+    width: 28%;
+    margin-top: -40px;
+    font-size: 10px;
+    border: 2px solid #0B2447  ;
+    background-color:#F8F6F4;
+    text-align: center;
+}
+
+.takimyanyana2 h5{
+    
+    font-size: 20px;
+}
+.takimyanyana3{
+    text-align: center;
+}
+.miybody{
+    background-color:#E3F4F4;
+}
+
+.loginhtml{
+    background-color: #c48282;
+}
+
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  background-color: #ff8c32;
+  border: none;
+  color: white;
+  padding: 15px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 13px;
+  -webkit-box-shadow: 0 10px 30px 0 rgba(95, 186, 233, 0.4);
+  box-shadow: 0 10px 30px 0 rgba(95, 186, 233, 0.4);
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  margin: 5px 20px 40px 20px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #ff8c32;
+}
+
+input[type="button"]:active,
+input[type="submit"]:active,
+input[type="reset"]:active {
+  -moz-transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -o-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+}
+
+input[type="text"] {
+  background-color: #f6f6f6;
+  border: none;
+  color: #0d0d0d;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  width: 85%;
+  border: 2px solid #f6f6f6;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+input[type="text"]:focus {
+  background-color: #fff;
+  border-bottom: 2px solid #ff8c32;
+}
+
+input[type="text"]:placeholder {
+  color: #cccccc;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
+  padding: 20px;
+}
+
+#formContent {
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  background: #fff;
+  padding: 30px;
+  width: 90%;
+  max-width: 450px;
+  position: relative;
+  padding: 0px;
+  -webkit-box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+#formFooter {
+  background-color: #f6f6f6;
+  border-top: 1px solid #dce8f1;
+  padding: 25px;
+  text-align: center;
+  -webkit-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+}
+.contact-form {
+  background: #fff;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  width: 70%;
+}
+.contact-form .form-control {
+  border-radius: 1rem;
+}
+.contact-image {
+  text-align: center;
+}
+.contact-image img {
+  border-radius: 6rem;
+  width: 11%;
+  margin-top: -3%;
+  transform: rotate(29deg);
+}
+.contact-form form {
+  padding: 14%;
+}
+.contact-form form .row {
+  margin-bottom: -7%;
+}
+.contact-form h3 {
+  margin-bottom: 8%;
+  margin-top: -10%;
+  text-align: center;
+  color: #0062cc;
+}
+.contact-form .btnContact {
+  width: 50%;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.5%;
+  background: #dc3545;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+.btnContactSubmit {
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  color: #fff;
+  background-color: #0062cc;
+  border: none;
+  cursor: pointer;
+}
+
+
